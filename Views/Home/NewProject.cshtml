@@ -1,0 +1,18 @@
+﻿@model MyCanvas.Editor.AppCode.Objects.ProjectWrapper
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Building new project</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h3>Initializing the editor... Please wait...</h3>
+        <div class="progress">
+            <div id="main" data-projectUrls='@Html.Raw(Json.Encode(Model.ProjectUrls))' data-projectParameters='@Html.Raw(Json.Encode(Model.ProjectParameters))' class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

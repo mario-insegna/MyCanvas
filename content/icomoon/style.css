@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?onkqwu');
+  src:  url('fonts/icomoon.eot?onkqwu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?onkqwu') format('truetype'),
+    url('fonts/icomoon.woff?onkqwu') format('woff'),
+    url('fonts/icomoon.svg?onkqwu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-addpage:before {
+  content: "\e900";
+}
+.icon-ancestry:before {
+  content: "\e901";
+}
+.icon-back:before {
+  content: "\e902";
+}
+.icon-background:before {
+  content: "\e903";
+}
+.icon-backward:before {
+  content: "\e904";
+}
+.icon-box:before {
+  content: "\e905";
+}
+.icon-cart:before {
+  content: "\e906";
+}
+.icon-center:before {
+  content: "\e907";
+}
+.icon-cover:before {
+  content: "\e908";
+}
+.icon-crop:before {
+  content: "\e909";
+}
+.icon-duplicate:before {
+  content: "\e90a";
+}
+.icon-embelishment:before {
+  content: "\e90b";
+}
+.icon-fit:before {
+  content: "\e90c";
+}
+.icon-flip:before {
+  content: "\e90d";
+}
+.icon-folder:before {
+  content: "\e90e";
+}
+.icon-forward:before {
+  content: "\e90f";
+}
+.icon-front:before {
+  content: "\e910";
+}
+.icon-justify:before {
+  content: "\e911";
+}
+.icon-lalign:before {
+  content: "\e912";
+}
+.icon-line:before {
+  content: "\e913";
+}
+.icon-minus:before {
+  content: "\e914";
+}
+.icon-pagesettings:before {
+  content: "\e915";
+}
+.icon-pencil2:before {
+  content: "\e916";
+}
+.icon-photo:before {
+  content: "\e917";
+}
+.icon-plus:before {
+  content: "\e918";
+}
+.icon-ralign:before {
+  content: "\e919";
+}
+.icon-redo:before {
+  content: "\e91a";
+}
+.icon-search:before {
+  content: "\e91b";
+}
+.icon-shadow:before {
+  content: "\e91c";
+}
+.icon-sync:before {
+  content: "\e91d";
+}
+.icon-textbox:before {
+  content: "\e91e";
+}
+.icon-trash:before {
+  content: "\e91f";
+}
+.icon-undo:before {
+  content: "\e920";
+}
+.icon-zin:before {
+  content: "\e921";
+}
+.icon-zout:before {
+  content: "\e922";
+}
